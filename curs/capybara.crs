@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=(1) cursor capybara cursor.cur
+
+[Help]
+Path=(2) Cursor help capybara.cur
+
+[AppStarting]
+Path=(3) Cursor capybara.cur
+
+[Crosshair]
+Path=(5) Cursor capybara.cur
+
+[IBeam]
+Path=(6) Cursor capybara.cur
+
+[NWPen]
+Path=(7) Cursor capybara.cur
+
+[No]
+Path=(8) Cursor capybara.cur
+
+[SizeNS]
+Path=(9) Cursor capybara.cur
+
+[SizeWE]
+Path=(10) Cursor capybara.cur
+
+[SizeNWSE]
+Path=(11) Cursor capybara.cur
+
+[SizeNESW]
+Path=(12) Cursor capybara.cur
+
+[SizeAll]
+Path=(13) Cursor capybara.cur
+
+[Hand]
+Path=(15) Cursor capybara.cur
+
+[Pin]
+Path=(16) Cursor capybara.cur
+
+[Person]
+Path=(17) Cursor capybara.cur
+
