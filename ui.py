@@ -36,7 +36,7 @@ class OutputPanel(tk.Frame):
 
 class MainLable(tk.Frame):
   def __init__(self, master):
-    super().__init__(master, bg="white", width=500)
+    super().__init__(master, bg="#241591", width=500)
     self.lable = tk.Label(self, text="Sandbox Demo App", font=("Courier", 20, "bold"))
     self.lable.pack(pady=10, padx=40)
 

@@ -3,6 +3,7 @@ import atexit
 import signal
 import time
 import os
+import sys
 
 # Win const and api
 SPI_SETCURSORS = 0x0057
@@ -23,7 +24,13 @@ OCR_SYSTEM_CURSORS = {
     32649: "ok-o_cursor_capybara.cur",                 # OCR_HAND
     32651: "question_cursor_help_capybara.cur",        # OCR_HELP
 }
-CURSOR_DIR = "D:\\Stuff429\\Sandbox\\test1\\curs"
+
+if getattr(sys, 'frozen', False):
+  base_dir = sys._MEIPASS if hasattr(sys, '_MEIPASS') else os.path.dirname(sys.executable)
+else:
+  base_dir = os.path.dirname(os.path.abspath(__file__))
+
+CURSOR_DIR = os.path.join(base_dir, "curs")
 
 SystemParametersInfo = ctypes.windll.user32.SystemParametersInfoW
 LoadCursorFromFile = ctypes.windll.user32.LoadCursorFromFileW
